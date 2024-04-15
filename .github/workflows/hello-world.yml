@@ -1,0 +1,16 @@
+name: Hello World
+
+'on': push
+
+jobs:
+
+  hello-job:
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ecoh test
+        run: 'echo "Hello, World!"'
+    
+
+
+  
